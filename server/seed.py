@@ -90,6 +90,7 @@ with app.app_context():
 
     db.session.add_all(games)
 
+
     reviews = []
     for u in users:
         for i in range(randint(1, 10)):
